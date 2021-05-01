@@ -1,4 +1,4 @@
-pipeline{
+  pipeline{
 	agent any 
 	stages{
 		stage('Desplegando artefacto'){
@@ -25,3 +25,5 @@ pipeline{
 			}
 		}
 		
+	}
+}	
